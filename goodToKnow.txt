@@ -1,0 +1,30 @@
+wsgi - stuff required for middleware
+""" - multi line comments
+# - single line comment
+pip freeze - shows installed packages
+Pip's documentation states
+
+freeze  Output installed packages in requirements format.
+list    List installed packages.
+from django.shortcuts import render - function that renders html
+db schema for app cannot be created if app is not included under INSTALLED_APPS in settings.py
+trailing comma is allowed in python
+>>> Person.objects.all() - similar to select * in mysql
+A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and the use of more storage space to maintain the extra copy of data. Indexes are used to quickly locate data without having to search every row in a database table every time a database table is accessed. Indexes can be created using one or more columns of a database table, providing the basis for both rapid random lookups and efficient access of ordered records.
+The touch command is the easiest way to create new, empty files. It is also used to change the timestamps (i.e., dates and times of the most recent access and modification) on existing files and directories.
+{{ - denotes variable substitution
+{% -
+
+print request.__dict__ - displays browser data that is passed between them
+cannot delete/modify db record in GET method 
+
+Using south
+1. ./manage.py convert_to_south appname
+2. make change in models.py
+3. ./manage.py schemamigration appname --auto
+4. ./manage.py migrate appname
+
+./manage.py test contacts
+
+me@kracekumar.com
+github: /kracekumar/contactup
